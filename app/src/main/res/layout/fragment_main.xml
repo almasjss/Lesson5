@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/text_view_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Главный экран"/>
+
+    <Button
+        android:id="@+id/button_open_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Открыть профиль"/>
+</LinearLayout>
